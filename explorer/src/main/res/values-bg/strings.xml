@@ -67,7 +67,8 @@
     <string name="simple">Опростен</string>
     <string name="size">Използвани:</string>
     <string name="uisettings">Виж настройките</string>
-    <string name="unzipping">разархивиране</string>
+    <string name="unzip">Pазопаковам</string>
+    <string name="unzipping">Pазархивиране</string>
     <string name="viewmode">Изглед</string>
     <string name="xdaforum">XDA форум</string>
     <string name="sort">Подреди</string>

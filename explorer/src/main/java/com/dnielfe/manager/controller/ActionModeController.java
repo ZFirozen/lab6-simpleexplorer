@@ -20,6 +20,7 @@ import com.dnielfe.manager.dialogs.DeleteFilesDialog;
 import com.dnielfe.manager.dialogs.FilePropertiesDialog;
 import com.dnielfe.manager.dialogs.GroupOwnerDialog;
 import com.dnielfe.manager.dialogs.RenameDialog;
+import com.dnielfe.manager.dialogs.UnpackDialog;
 import com.dnielfe.manager.dialogs.ZipFilesDialog;
 import com.dnielfe.manager.settings.Settings;
 import com.dnielfe.manager.utils.ClipBoard;
@@ -70,7 +71,7 @@ public final class ActionModeController {
                     menu.removeItem(R.id.actiongroupowner);
                     menu.removeItem(R.id.actionrename);
                     menu.removeItem(R.id.actionzip);
-
+                    menu.removeItem(R.id.actionunzip);
                 if (mListView.getCheckedItemCount() > 1) {
                     menu.removeItem(R.id.actionbackup);
                     menu.removeItem(R.id.actiondetails);
@@ -83,6 +84,13 @@ public final class ActionModeController {
                     menu.removeItem(R.id.actionrename);
                     menu.removeItem(R.id.actiongroupowner);
                     menu.removeItem(R.id.actiondetails);
+                    menu.removeItem(R.id.actionunzip);
+                }
+                else if (mListView.getCheckedItemCount() == 1){
+                    final SparseBooleanArray items = mListView.getCheckedItemPositions();
+                    final int key = items.keyAt(0);
+                    if (items.get(key) && !((String) mListView.getItemAtPosition(key)).contains(".zip"))
+                        menu.removeItem(R.id.actionunzip);
                 }
             }
             return true;
@@ -212,6 +220,19 @@ public final class ActionModeController {
                     final DialogFragment dialog = ZipFilesDialog.instantiate(files);
                     mode.finish();
                     dialog.show(mActivity.getFragmentManager(), BrowserActivity.TAG_DIALOG);
+                    return true;
+                case R.id.actionunzip:
+                    for (int i = 0; i < checkedItemSize; i++) {
+                        final int key = items.keyAt(i);
+                        if (items.get(key)) {
+                            final DialogFragment dialog5 = UnpackDialog
+                                    .instantiate(new File((String) mListView
+                                            .getItemAtPosition(key)));
+                            mode.finish();
+                            dialog5.show(mActivity.getFragmentManager(), BrowserActivity.TAG_DIALOG);
+                            break;
+                        }
+                    }
                     return true;
                 case R.id.actionrename:
                     for (int i = 0; i < checkedItemSize; i++) {

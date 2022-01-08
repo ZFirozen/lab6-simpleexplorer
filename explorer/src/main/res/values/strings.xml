@@ -69,6 +69,7 @@
     <string name="simple">Simple</string>
     <string name="size">Used:</string>
     <string name="uisettings">View settings</string>
+    <string name="unzip">Extract</string>
     <string name="unzipping">Extracting</string>
     <string name="viewmode">View mode</string>
     <string name="xdaforum">XDA forum</string>
@@ -123,8 +124,8 @@
     <string name="overwrite_replace">Replace</string>
     <string name="overwrite_replace_all">Replace all</string>
 
-	<!-- file picker -->
-	<string name="picker_choose_one_file">Choose a file</string>
+    <!-- file picker -->
+    <string name="picker_choose_one_file">Choose a file</string>
 
     <!-- permissions -->
     <string name="message_denied">Permission \"%1$s\" has been denied</string>
