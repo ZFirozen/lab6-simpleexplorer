@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">Simple Explorer</string>
     <string name="advancedsettings">Додатково</string>
+    <string name="backup">Резервне копіювання</string>
     <string name="cancel">Скасувати</string>
     <string name="cannotbeundoneareyousureyouwanttodelete">"Ви впевнені? Це незворотньо!"</string>
     <string name="cantopenfile">Не можу відкрити файл</string>

@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">Simple Explorer</string>
     <string name="advancedsettings">پیشرفته</string>
+    <string name="backup">پشتیبان گیری</string>
     <string name="cancel">لغو</string>
     <string name="cannotbeundoneareyousureyouwanttodelete">"این نمی تواند باطل شود!"</string>
     <string name="cantopenfile">قادر به گشودن این پرونده نمی باشد</string>

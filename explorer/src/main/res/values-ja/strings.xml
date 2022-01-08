@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">Simple Explorer</string>
     <string name="advancedsettings">高度な設定</string>
+    <string name="backup">バックアップ</string>
     <string name="cancel">キャンセル</string>
     <string name="cannotbeundoneareyousureyouwanttodelete">"これは元に戻すことができません!"</string>
     <string name="cantopenfile">このファイルを開くことができません</string>

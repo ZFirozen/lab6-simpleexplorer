@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">Simple Explorer</string>
     <string name="advancedsettings">Детайлни настройки</string>
+    <string name="backup">Архивиране</string>
     <string name="cancel">Отмена</string>
     <string name="cannotbeundoneareyousureyouwanttodelete">"Това действие е необратимо!"</string>
     <string name="cantopenfile">Файлът не може да бъде отворен</string>

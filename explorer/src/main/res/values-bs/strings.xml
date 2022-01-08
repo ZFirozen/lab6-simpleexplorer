@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">Simple Explorer</string>
     <string name="advancedsettings">Napredno</string>
+    <string name="backup">Rezerva</string>
     <string name="cancel">Otka�i</string>
     <string name="cannotbeundoneareyousureyouwanttodelete">"Ovo ne mo�e biti poni�teno zbog dozvole"</string>
     <string name="cantopenfile">Cannot open this file</string>

@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">Simple Explorer</string>
     <string name="advancedsettings">Haladó</string>
+    <string name="backup">Biztonsági mentés</string>
     <string name="cancel">Mégse</string>
     <string name="cannotbeundoneareyousureyouwanttodelete">"Nem lehet visszavonni!"</string>
     <string name="cantopenfile">Nem nyitható meg a fájl</string>

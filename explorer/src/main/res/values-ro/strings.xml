@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">Simple Explorer</string>
     <string name="advancedsettings">Avansat</string>
+    <string name="backup">Backup</string>
     <string name="cancel">Revocare</string>
     <string name="cannotbeundoneareyousureyouwanttodelete">"Acest lucru nu poate fi anulat!"</string>
     <string name="cantopenfile">Nu se poate deschide acest fişier</string>

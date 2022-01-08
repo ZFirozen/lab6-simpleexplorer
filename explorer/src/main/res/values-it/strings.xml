@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">Simple Explorer</string>
     <string name="advancedsettings">Avanzate</string>
+    <string name="backup">Backup</string>
     <string name="cancel">Annulla</string>
     <string name="cannotbeundoneareyousureyouwanttodelete">"Questa operazione non può essere annullata"</string>
     <string name="cantopenfile">Impossibile aprire questo file</string>

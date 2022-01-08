@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">Simple Explorer</string>
     <string name="advancedsettings">Geavanceerd</string>
+    <string name="backup">Back-up</string>
     <string name="cancel">Annuleren</string>
     <string name="cannotbeundoneareyousureyouwanttodelete">"Dit kan niet ongedaan worden gemaakt!"</string>
     <string name="cantopenfile">Kan dit bestand niet openen</string>

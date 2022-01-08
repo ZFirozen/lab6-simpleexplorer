@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">Simple Explorer</string>
     <string name="advancedsettings">Gelişmiş</string>
+    <string name="backup">Destek olmak</string>
     <string name="cancel">İptal</string>
     <string name="cannotbeundoneareyousureyouwanttodelete">"Bu işlem geri alınamaz!"</string>
     <string name="cantopenfile">Bu dosya açılamıyor</string>

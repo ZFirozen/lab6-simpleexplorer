@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">Simple Explorer</string>
     <string name="advancedsettings">Avançado</string>
+    <string name="backup">Cópia de segurança</string>
     <string name="cancel">Cancelar</string>
     <string name="cannotbeundoneareyousureyouwanttodelete">"Isso não pode ser desfeito"</string>
     <string name="cantopenfile">Não é possível abrir este arquivo</string>

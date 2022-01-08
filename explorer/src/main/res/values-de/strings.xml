@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">Simple Explorer</string>
     <string name="advancedsettings">Erweitert</string>
+    <string name="backup">Sicherung</string>
     <string name="cancel">Abbrechen</string>
     <string name="cannotbeundoneareyousureyouwanttodelete">"Dies kann nicht rückgängig gemacht werden!"</string>
     <string name="cantopenfile">Datei kann nicht geöffnet werden</string>

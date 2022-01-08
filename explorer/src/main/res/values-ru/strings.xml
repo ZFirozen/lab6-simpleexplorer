@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">Simple Explorer</string>
     <string name="advancedsettings">Дополнительно</string>
+    <string name="backup">Резервная копия</string>
     <string name="cancel">Отмена</string>
     <string name="cannotbeundoneareyousureyouwanttodelete">"Вы уверены? Это необратимо!"</string>
     <string name="cantopenfile">Не удаётся открыть файл</string>

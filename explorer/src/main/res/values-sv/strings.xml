@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">Simple Explorer</string>
     <string name="advancedsettings">Avancerat</string>
+    <string name="backup">Säkerhetskopiering</string>
     <string name="cancel">Avbryt</string>
     <string name="cannotbeundoneareyousureyouwanttodelete">"Detta kan inte ångras!"</string>
     <string name="cantopenfile">Filen kan inte öppnas</string>

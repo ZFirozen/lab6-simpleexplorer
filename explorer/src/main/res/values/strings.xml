@@ -3,6 +3,7 @@
     <string name="minus" translatable="false">-</string>
     <string name="app_name">Simple Explorer</string>
     <string name="advancedsettings">Advanced</string>
+    <string name="backup">Backup</string>
     <string name="cancel">Cancel</string>
     <string name="cannotbeundoneareyousureyouwanttodelete">"This cannot be undone!"</string>
     <string name="cantopenfile">Cannot open this file</string>

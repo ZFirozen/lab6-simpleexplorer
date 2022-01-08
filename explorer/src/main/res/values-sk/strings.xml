@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">Simple Explorer</string>
     <string name="advancedsettings">Pokročilé</string>
+    <string name="backup">Zálohovanie</string>
     <string name="cancel">Zrušiť</string>
     <string name="cannotbeundoneareyousureyouwanttodelete">"Túto akciu nie je možné vrátiť!"</string>
     <string name="cantopenfile">Nemožno otvoriť tento priečinok</string>

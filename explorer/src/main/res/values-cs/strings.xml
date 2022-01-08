@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">Simple Explorer</string>
     <string name="advancedsettings">Rozšířené</string>
+    <string name="backup">Backup</string>
     <string name="cancel">Zrušit</string>
     <string name="cannotbeundoneareyousureyouwanttodelete">"Toto nelze vzít zpět!"</string>
     <string name="cantopenfile">Nelze otevřít tento soubor</string>

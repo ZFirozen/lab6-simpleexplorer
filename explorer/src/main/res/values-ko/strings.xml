@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">Simple Explorer(파일관리자)</string>
     <string name="advancedsettings">고급</string>
+    <string name="backup">지원</string>
     <string name="cancel">취소</string>
     <string name="cannotbeundoneareyousureyouwanttodelete">"\"영구 삭제하시겠습니까? 수행한 후에는 작업을 취소할 수 없습니다.\""</string>
     <string name="cantopenfile">파일을 열 수 없음</string>
