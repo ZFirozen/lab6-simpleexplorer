@@ -2,11 +2,11 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
     <PreferenceCategory android:title="@string/uisettings">
-        <CheckBoxPreference
+        <SwitchPreference
             android:defaultValue="true"
             android:key="displayhiddenfiles"
             android:title="@string/hiddenfiles" />
-        <CheckBoxPreference
+        <SwitchPreference
             android:defaultValue="true"
             android:key="showpreview"
             android:title="@string/showpreview" />
@@ -26,7 +26,7 @@
             android:key="sort"
             android:title="@string/sort" />
 
-        <CheckBoxPreference
+        <SwitchPreference
             android:defaultValue="false"
             android:key="reverseList"
             android:title="@string/sort_reverselist" />
@@ -44,7 +44,7 @@
             android:key="defaultdir"
             android:title="@string/defaultdir" />
 
-        <CheckBoxPreference
+        <SwitchPreference
             android:defaultValue="false"
             android:key="enablerootaccess"
             android:title="@string/enable_root" />
